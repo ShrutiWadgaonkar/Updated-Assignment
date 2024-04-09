@@ -1,0 +1,399 @@
+*{
+    margin: 0;
+}
+
+/* Header starts */
+
+.header_left img {
+    height: 40px;
+}
+
+.user_avatar {
+    border-radius: 50%;
+    width: 45px;
+}
+
+.header {
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: white;
+    box-shadow: 0 5px 8px -9px rgba(0, 0, 0, 0.75);
+}
+
+.header_left {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.header_input {
+    display: flex;
+    align-items: center;
+    background-color: #eff2f5;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 999px;
+    font-size:x-large;
+}
+
+.header_input input {
+    border: none;
+    background-color: transparent;
+    outline-width: 0;
+}
+
+.header_middle{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.header_option .material-icons {
+   font-size: xx-large;
+   color: gray;
+   padding: 6px;
+   margin: 6px;
+}
+
+.header_option:hover .material-icons {
+      color: #2e81f4;
+}
+
+.header_option {
+   display: flex;
+   align-items: center;
+   padding: 0 30px;
+   cursor: pointer; 
+}
+
+.header_option.active .material-icons {
+    color: #2e81f4;
+}
+
+.header_option:hover {
+    background-color: #eff2f5;
+    border-radius: 10px;
+    align-items: center;
+    padding: 0 30px;
+    border-bottom: none;
+}
+
+.header_info {
+    display: flex;
+    align-items: center;
+}
+
+.header_info h4 {
+    margin-left: 10px;
+}
+
+.header_right {
+    display: flex;
+    align-items: center;
+}
+
+.outer_circle {
+    margin: 10px;
+}
+
+.header_right .material-icons {
+    color: white;
+    cursor: pointer;
+}
+
+/* Header ends */
+
+/* sidebar starts */
+
+.sidebar {
+    padding: 25px 10px;
+    flex: 0.33;
+}
+
+.left_nav {
+    height: 40px;
+    width: 40px;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.left_navd {
+    height: 40px;
+    width: 40px;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.sidebarRow {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.sidebarRow:hover {
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+.sidebarRow h4 {
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+.sidebarRow .left_nav .material-icons {
+    font-size: xx-large;
+    color: #2e81f4;
+}
+
+/* Sidebar ends */
+/* Story Starts*/
+
+.story {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 165px;
+    height: 230px;
+    box-shadow: 0px 5px 17px -7px rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.story:hover {
+    transform: scale(1.07);
+}
+
+.story_avatar {
+    margin: 10px;
+}
+
+.story h4 {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+}
+
+.storyReel {
+    padding: 10px 0px;
+    display: flex;
+}
+
+.story_avatar {
+    border: 5px solid blue;
+}
+
+/* Story ends */
+/* Feed starts */
+
+.main_body {
+    display: flex;
+}
+
+body {
+    background-color: #f1f2f5;
+}
+
+.feed {
+    flex: 1;
+    padding: 30px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Feed ends */
+/* messageSender1 starts*/
+
+.messageSender {
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
+    width: 76%;
+}
+
+.messageSender_top {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #eff2f5;
+    padding: 15px;
+}
+
+.messageSender_top form {
+    flex: 1;
+    display: flex;
+}
+
+.messageSender_top form input {
+    flex: 1;
+    outline-width: 0;
+    border: none;
+    padding: 15px 20px;
+    margin: 0 10px;
+    border-radius: 999px;
+    background-color: #eff2f5;
+}
+
+.messageSender_bottom {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.messageSender_option {
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    color: gray;
+    margin: 5px;
+}
+
+.messageSender_option h3 {
+    font-size: medium;
+    margin-left: 10px;
+}
+
+.messageSender_option:hover {
+    cursor: pointer;
+    background-color: #eff2f5;
+    border-radius: 20px;
+}
+
+/* messageSender1 ends*/
+/* messageSender2 starts*/
+.text_create {
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.profile_icons {
+    display: flex;
+    margin-left: 20px;
+
+}
+
+.each_friends {
+    padding-left: 20px;
+}
+
+.create_room:hover {
+    background-color:rgb(245, 241, 236);
+    border-radius: 30px;
+    height: 40px;
+    width: 200px;
+}
+/* messageSender2 ends*/
+/* post starts */
+
+.post {
+    width: 76%;
+    margin-top: 15px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
+}
+
+.post_image img {
+    width: 95%;
+    margin-left: 22px;
+    margin-right: 30px;
+}
+
+.post_top {
+    display: flex;
+    position: relative;
+    align-items: center;
+    padding: 15px;
+}
+
+.post_avatar {
+    margin-right: 10px;
+}
+
+.post_topInfo h3 {
+    font-size:xx-large;
+}
+
+.post_topInfo p {
+    font-size:medium;
+    color: gray;
+}
+
+.post_bottom {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px 25px;
+    font-size:large;
+}
+
+/* Post ends */
+/* widget starts */
+
+.widget {
+
+    display: flex;
+    flex-direction: column;
+    flex:0.3;
+    padding: 15px 20px;
+    margin-left: 70px;
+}
+
+.widget_top {
+
+    display: flex;
+    justify-content:space-between;
+    padding: 10px 0px;
+}
+
+.widget_top h3 {
+    font-size: x-large;
+    color: gray;
+}
+
+.widget_all_icons {
+    display: flex;
+    justify-content:space-around;
+    width: 40%;
+    cursor: pointer;
+}
+
+.widget_icons:hover {
+    background-color: lightgray;
+    border-radius: 8px;
+    height: 30px;
+    width: 40px;
+    align-items: center; 
+    display: flex;
+    justify-content: center; 
+}
+
+.each_friend {
+    display: flex;
+    align-items: center;
+}
+
+.each_friend p {
+    color: rgb(74, 74, 74);
+    font-size: large;
+    margin: 5px 0px;
+    padding: 12px 0px;
+}
+
+.each_friend img {
+    margin-right: 10px;
+}
+
+/* widget ends */
